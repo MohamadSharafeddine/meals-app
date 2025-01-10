@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "03-meals-app",
-    "slug": "03-meals-app",
+    "name": "My Recipe Book",
+    "slug": "my-recipe-book",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,16 +14,25 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mohamadsharafeddine.myrecipebook"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mohamadsharafeddine.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8309d56-357c-44d7-8fec-6a9d58832386"
+      }
     }
   }
 }
